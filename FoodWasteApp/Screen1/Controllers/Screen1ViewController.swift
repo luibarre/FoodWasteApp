@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  Screen1ViewController.swift
 //  FoodWasteApp
 //
 //  Created by Luigi Barretta on 31/01/2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class Screen1ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
