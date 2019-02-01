@@ -2,27 +2,23 @@ PODS:
   - Haptica (2.2.3)
   - Kingfisher (5.1.0)
   - SwiftLint (0.30.1)
-  - SwiftySound (1.0.0)
 
 DEPENDENCIES:
   - Haptica
   - Kingfisher (~> 5.0)
   - SwiftLint
-  - SwiftySound
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Haptica
     - Kingfisher
     - SwiftLint
-    - SwiftySound
 
 SPEC CHECKSUMS:
   Haptica: 9b4e210ecf506b9f96c2a7746a8d945452ec344b
   Kingfisher: fcec238063d17404fca89bf0a850583211c4cbf6
   SwiftLint: a54bf1fe12b55c68560eb2a7689dfc81458508f7
-  SwiftySound: b9c3370956fd4ed65ed79d45563070077a50a2cd
 
-PODFILE CHECKSUM: b36a8b539ace3a983c07069beaa330c9a583d417
+PODFILE CHECKSUM: b65c3eeba64e432b4ed7fa2023d1fcadd65b1a65
 
 COCOAPODS: 1.5.3
