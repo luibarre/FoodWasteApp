@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		B9CF1E1D21F0EB63AB78782D /* Pods_FoodWasteApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 095BBEEC13F55803DB194928 /* Pods_FoodWasteApp.framework */; };
 		F4D372C722034CC60031FA9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D372C622034CC60031FA9B /* AppDelegate.swift */; };
-		F4D372C922034CC60031FA9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D372C822034CC60031FA9B /* ViewController.swift */; };
+		F4D372C922034CC60031FA9B /* Screen1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D372C822034CC60031FA9B /* Screen1ViewController.swift */; };
 		F4D372CC22034CC60031FA9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D372CA22034CC60031FA9B /* Main.storyboard */; };
 		F4D372CE22034CC80031FA9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D372CD22034CC80031FA9B /* Assets.xcassets */; };
 		F4D372D122034CC80031FA9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D372CF22034CC80031FA9B /* LaunchScreen.storyboard */; };
 		F4D372DD220399760031FA9B /* GenericDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D372DC220399760031FA9B /* GenericDecoder.swift */; };
 		F4D372DF2203999E0031FA9B /* GenericCoderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D372DE2203999E0031FA9B /* GenericCoderError.swift */; };
+		F4D372E22203BA2A0031FA9B /* Screen1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D372E12203BA2A0031FA9B /* Screen1.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,13 +24,14 @@
 		79BBCF6226FE668BD8845682 /* Pods-FoodWasteApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodWasteApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodWasteApp/Pods-FoodWasteApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F4D372C322034CC60031FA9B /* FoodWasteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodWasteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D372C622034CC60031FA9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4D372C822034CC60031FA9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4D372C822034CC60031FA9B /* Screen1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen1ViewController.swift; sourceTree = "<group>"; };
 		F4D372CB22034CC60031FA9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4D372CD22034CC80031FA9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4D372D022034CC80031FA9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4D372D222034CC80031FA9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4D372DC220399760031FA9B /* GenericDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDecoder.swift; sourceTree = "<group>"; };
 		F4D372DE2203999E0031FA9B /* GenericCoderError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCoderError.swift; sourceTree = "<group>"; };
+		F4D372E12203BA2A0031FA9B /* Screen1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Screen1.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +87,10 @@
 				F4D372DB2203993B0031FA9B /* Helpers */,
 				F4D372D9220398FC0031FA9B /* Resources */,
 				F4D372D8220398990031FA9B /* Utilities */,
+				F4D372E02203B9DE0031FA9B /* Screen1 */,
+				F4D372E72203BAF60031FA9B /* Screen2 */,
+				F4D372EC2203BC5F0031FA9B /* Screen3 */,
 				F4D372C622034CC60031FA9B /* AppDelegate.swift */,
-				F4D372C822034CC60031FA9B /* ViewController.swift */,
 				F4D372CA22034CC60031FA9B /* Main.storyboard */,
 				F4D372CF22034CC80031FA9B /* LaunchScreen.storyboard */,
 				F4D372D222034CC80031FA9B /* Info.plist */,
@@ -124,6 +128,126 @@
 				F4D372DE2203999E0031FA9B /* GenericCoderError.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F4D372E02203B9DE0031FA9B /* Screen1 */ = {
+			isa = PBXGroup;
+			children = (
+				F4D372E62203BAD00031FA9B /* Resources */,
+				F4D372E52203BAC10031FA9B /* Models */,
+				F4D372E42203BAAF0031FA9B /* Controllers */,
+				F4D372E32203BAA10031FA9B /* Views */,
+			);
+			path = Screen1;
+			sourceTree = "<group>";
+		};
+		F4D372E32203BAA10031FA9B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4D372E12203BA2A0031FA9B /* Screen1.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F4D372E42203BAAF0031FA9B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4D372C822034CC60031FA9B /* Screen1ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F4D372E52203BAC10031FA9B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4D372E62203BAD00031FA9B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F4D372E72203BAF60031FA9B /* Screen2 */ = {
+			isa = PBXGroup;
+			children = (
+				F4D372E82203BB060031FA9B /* Resources */,
+				F4D372EA2203BB190031FA9B /* Models */,
+				F4D372E92203BB0D0031FA9B /* Views */,
+				F4D372EB2203BB1F0031FA9B /* Controllers */,
+			);
+			path = Screen2;
+			sourceTree = "<group>";
+		};
+		F4D372E82203BB060031FA9B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F4D372E92203BB0D0031FA9B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F4D372EA2203BB190031FA9B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4D372EB2203BB1F0031FA9B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F4D372EC2203BC5F0031FA9B /* Screen3 */ = {
+			isa = PBXGroup;
+			children = (
+				F4D372ED2203BC5F0031FA9B /* Resources */,
+				F4D372EE2203BC5F0031FA9B /* Models */,
+				F4D372EF2203BC5F0031FA9B /* Controllers */,
+				F4D372F02203BC5F0031FA9B /* Views */,
+			);
+			name = Screen3;
+			path = FoodWasteApp/Screen3;
+			sourceTree = SOURCE_ROOT;
+		};
+		F4D372ED2203BC5F0031FA9B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F4D372EE2203BC5F0031FA9B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4D372EF2203BC5F0031FA9B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F4D372F02203BC5F0031FA9B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +312,7 @@
 			files = (
 				F4D372D122034CC80031FA9B /* LaunchScreen.storyboard in Resources */,
 				F4D372CE22034CC80031FA9B /* Assets.xcassets in Resources */,
+				F4D372E22203BA2A0031FA9B /* Screen1.storyboard in Resources */,
 				F4D372CC22034CC60031FA9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,7 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4D372C922034CC60031FA9B /* ViewController.swift in Sources */,
+				F4D372C922034CC60031FA9B /* Screen1ViewController.swift in Sources */,
 				F4D372DD220399760031FA9B /* GenericDecoder.swift in Sources */,
 				F4D372DF2203999E0031FA9B /* GenericCoderError.swift in Sources */,
 				F4D372C722034CC60031FA9B /* AppDelegate.swift in Sources */,
